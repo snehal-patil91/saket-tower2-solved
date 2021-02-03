@@ -29,6 +29,7 @@ class Block{
       {
         World.remove(world, this.body);
         push();
+         tint(255,this.visibility);
         this.visibility = this.visibility -5;
         pop();
         
